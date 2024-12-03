@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo-icon {
+    width: 100px; /* Enlarged logo */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centered logo */
+  }
+  
+  h1 {
+    margin: 10px 0;
+    font-size: 28px;
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .recipe-of-week {
+    padding: 20px;
+  }
+  
+  .section-title {
+    text-align: left; /* Moved text to the left */
+    margin: 20px 20px 10px;
+    font-size: 24px;
+  }
+  
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .recipe-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .recipe-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .read-more {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .read-more:hover {
+    background-color: darkorange;
+  }
+  
